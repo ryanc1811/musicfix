@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the top artists in the music industry, including The Weeknd, Drake, Kanye West, Kendrick Lamar, and J.Cole. Explore their latest songs, albums, and more.">
+    <meta name="keywords" content="artist, music, top artists, The Weeknd, Drake, Kanye West, Kendrick Lamar, J.Cole">
+    <meta name="author" content="ATU Sligo">
+    <title>Top Artists</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="music (1).png">
+    <style>
+        /* Internal styling for the buttons */
+        .navigation-button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header id="header"> <!-- Added id="header" -->
+        <h1>Top Artists</h1>
+        <!-- Button to navigate to the footer -->
+        <a href="#footer" class="navigation-button">Go to Footer</a>
+        <div>
+            <a href="index.html" class="home"><img src="home.png" alt="Home"></a>
+        </div>
+    </header>
+    <div class="song-list">
+        <div class="row">
+            <div class="song">
+                <h2><a href="TheWeeknd.html">The Weeknd - 113 million monthly listeners</a></h2>
+                <img src="TheWeeknd.jpg" alt="The Weeknd Image" width="550">
+            </div>
+            <div class="song">
+                <h2><a href="Drake.html">Drake - 81 million monthly listeners</a></h2>
+                <img src="drake.jpeg" alt="Drake Image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="song">
+                <h2><a href="KanyeWest.html">Kanye West - 76 million monthly listeners</a></h2>
+                <img src="kanye.jpeg" alt="Kanye West Image">
+            </div>
+            <div class="song">
+                <h2><a href="KendrickLamar.html">Kendrick Lamar - 60 million monthly listeners</a></h2>
+                <img src="kendrick.jpg" alt="Kendrick Lamar Image">
+            </div>
+        </div>
+        <div class="row center-row">
+            <div class="song">
+                <h2><a href="Jcole.html">J.Cole - 43 million monthly listeners</a></h2>
+                <img src="jcole.jpg" alt="J.Cole Image">
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- Button to navigate to the header -->
+        <a href="#header" class="navigation-button">Go to Header</a> <!-- Changed href="#header" -->
+        <div class="footer-left">
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="additional_info.html">Additional Info</a></li>
+            </ul>
+        </div>
+        <div class="copyright">&copy; 2024 Your Company</div>
+        <div class="map">
+            <!-- Google Maps Embed API -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.021237309046!2d-8.478854983945274!3d54.272165980101785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ea52f2de155b9%3A0x21c1d2b5e20c3b4b!2sInstitute%20of%20Technology%20Sligo!5e0!3m2!1sen!2sie!4v1649388313472!5m2!1sen!2sie" 
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>    
+</body>
+</html>

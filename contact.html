@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="contact-header"> <!-- Add a class to the header -->
+        <h1>Contact Us</h1>
+        <div>
+            <a href="index.html" class="home"><img src="home.png" alt="Home"></a>
+        </div>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-box">
+            <div class="contact-text">
+                <p>We are trying to expand your music taste. How about you expand ours and give us some artists we don't have listed and some artists you believe are similar, and we might add them in the future?</p>
+            </div>
+            <div class="contact-form">
+                <form action="submit_contact_form.php" method="post">
+                    <div class="form-row">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
