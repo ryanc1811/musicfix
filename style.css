@@ -159,7 +159,7 @@ footer {
     color: #77abdb; /* Change color on hover */
 }
 body {
-    background-image: url(images/crowd.jpeg); /* Replace 'crowd.jpg' with the path to your background image */
+    background-image: url(crowd.jpeg); /* Replace 'crowd.jpg' with the path to your background image */
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
